@@ -5,8 +5,8 @@ import Script from "next/script";
 // Local Geist Fonts (No Google API → No Turbopack error)
 
 export const metadata = {
-  title: "Ecomus - Ultimate HTML",
-  description: "Themesflat Ecomus - A modern and versatile eCommerce template",
+  title: "thegroupnx",
+  description: "menswear shop",
 };
 
 export default function RootLayout({ children }) {
