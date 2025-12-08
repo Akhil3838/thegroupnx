@@ -19,7 +19,7 @@ export default function Home() {
 
         {/* Card 1 */}
         <Link 
-          href="/product"
+          href="/products"
           style={{
             flex: 1,
             minWidth: "260px",
