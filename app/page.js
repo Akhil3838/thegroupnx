@@ -884,86 +884,86 @@ export default function Home() {
   >
     <div className="swiper-wrapper">
       
-      {/* Slide 1 */}
-      <div className="swiper-slide" data-lazy="true">
-        <div className="wrap-slider">
-          <img
-            className="lazyload"
-            data-src="images/slider/women-slideshow-1.jpg"
-            src="images/slider/women-slideshow-1.jpg"
-            alt="women-slideshow-01"
-          />
-          <div className="box-content">
-            <div className="container">
-              <h1 className="fade-item fade-item-1">Elegance</h1>
-              <p className="fade-item fade-item-2">
-                From casual to formal, we've got you covered
-              </p>
-              <a
-                href="shop-default.html"
-                className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
-              >
-                <span>Shop collection</span>
-                <i className="icon icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+{/* Slide 1 */}
+<div className="swiper-slide" data-lazy="true">
+  <div className="wrap-slider">
+    <img
+      className="lazyload"
+      data-src="images/slider/women-slideshow-1.jpg"
+      src="images/slider/women-slideshow-1.jpg"
+      alt="women-slideshow-01"
+    />
+    <div className="box-content">
+      <div className="container">
+        <h1 className="fade-item fade-item-1">Elegance</h1>
+        <p className="fade-item fade-item-2">
+          From casual to formal, we&apos;ve got you covered
+        </p>
+        <a
+          href="/shop-default"
+          className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
+        >
+          <span>Shop collection</span>
+          <i className="icon icon-arrow-right"></i>
+        </a>
       </div>
+    </div>
+  </div>
+</div>
 
-      {/* Slide 2 */}
-      <div className="swiper-slide" data-lazy="true">
-        <div className="wrap-slider">
-          <img
-            className="lazyload"
-            data-src="images/slider/women-slideshow-2.jpg"
-            src="images/slider/women-slideshow-2.jpg"
-            alt="women-slideshow-02"
-          />
-          <div className="box-content">
-            <div className="container">
-              <h1 className="fade-item fade-item-1">Boutique</h1>
-              <p className="fade-item fade-item-2">
-                From casual to formal, we've got you covered
-              </p>
-              <a
-                href="shop-default.html"
-                className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
-              >
-                <span>Shop collection</span>
-                <i className="icon icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+{/* Slide 2 */}
+<div className="swiper-slide" data-lazy="true">
+  <div className="wrap-slider">
+    <img
+      className="lazyload"
+      data-src="images/slider/women-slideshow-2.jpg"
+      src="images/slider/women-slideshow-2.jpg"
+      alt="women-slideshow-02"
+    />
+    <div className="box-content">
+      <div className="container">
+        <h1 className="fade-item fade-item-1">Boutique</h1>
+        <p className="fade-item fade-item-2">
+          From casual to formal, we&apos;ve got you covered
+        </p>
+        <a
+          href="/shop-default"
+          className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
+        >
+          <span>Shop collection</span>
+          <i className="icon icon-arrow-right"></i>
+        </a>
       </div>
+    </div>
+  </div>
+</div>
 
-      {/* Slide 3 */}
-      <div className="swiper-slide" data-lazy="true">
-        <div className="wrap-slider">
-          <img
-            className="lazyload"
-            data-src="images/slider/women-slideshow-3.jpg"
-            src="images/slider/women-slideshow-3.jpg"
-            alt="women-slideshow-03"
-          />
-          <div className="box-content">
-            <div className="container">
-              <h1 className="fade-item fade-item-1">Luxury</h1>
-              <p className="fade-item fade-item-2">
-                From casual to formal, we've got you covered
-              </p>
-              <a
-                href="shop-default.html"
-                className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
-              >
-                <span>Shop collection</span>
-                <i className="icon icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
+{/* Slide 3 */}
+<div className="swiper-slide" data-lazy="true">
+  <div className="wrap-slider">
+    <img
+      className="lazyload"
+      data-src="images/slider/women-slideshow-3.jpg"
+      src="images/slider/women-slideshow-3.jpg"
+      alt="women-slideshow-03"
+    />
+    <div className="box-content">
+      <div className="container">
+        <h1 className="fade-item fade-item-1">Luxury</h1>
+        <p className="fade-item fade-item-2">
+          From casual to formal, we&apos;ve got you covered
+        </p>
+        <a
+          href="/shop-default"
+          className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
+        >
+          <span>Shop collection</span>
+          <i className="icon icon-arrow-right"></i>
+        </a>
       </div>
+    </div>
+  </div>
+</div>
 
     </div>
   </div>
