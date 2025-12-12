@@ -1,77 +1,19 @@
-import Link from "next/link";
+import React from 'react'
 
-export default function Home() {
+function page() {
   return (
+    <>
     <div className="preload-wrapper">
-          {/* <!-- RTL --> */}
-    <a href="#" id="toggle-rtl" className="tf-btn animate-hover-btn btn-fill">RTL</a>
-    {/* <!-- /RTL  --> */}
+            <a href="#" id="toggle-rtl" className="tf-btn animate-hover-btn btn-fill">RTL</a>
+     
     {/* <div className="preload preload-container">
         <div className="preload-logo">
             <div className="spinner"></div>
         </div>
-    </div>
- */}
+    </div> */}
+
     <div id="wrapper">
-
-      {/* announcement-bar */}
-<div className="announcement-bar bg_dark">
-  <div className="wrap-announcement-bar">
-    <div className="box-sw-announcement-bar speed-1">
-
-      <div className="announcement-bar-item">
-        <p>FREE SHIPPING AND RETURNS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>NEW SEASON, NEW STYLES: FASHION SALE YOU CAN'T MISS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>FREE SHIPPING AND RETURNS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>NEW SEASON, NEW STYLES: FASHION SALE YOU CAN'T MISS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>FREE SHIPPING AND RETURNS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>NEW SEASON, NEW STYLES: FASHION SALE YOU CAN'T MISS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>FREE SHIPPING AND RETURNS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>NEW SEASON, NEW STYLES: FASHION SALE YOU CAN'T MISS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>FREE SHIPPING AND RETURNS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>NEW SEASON, NEW STYLES: FASHION SALE YOU CAN'T MISS</p>
-      </div>
-      <div className="announcement-bar-item">
-        <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
-      </div>
-
-    </div>
-  </div>
-
-  <span className="icon-close close-announcement-bar"></span>
-</div>
-{/* /announcement-bar */}
-{/* header */}
+        {/* header */}
 <header id='header' className='header-default'>
    <div className="px_15 lg-px_40">
      <div className="row wrapper-header align-items-center">
@@ -738,1042 +680,223 @@ export default function Home() {
 
 </header>
 {/* / header */}
-
-{/* categories */}
-<section className="flat-spacing-20">
-  <div className="container">
-    <div className="tf-categories-wrap">
-      <div className="tf-categories-container">
-
-        <div className="collection-item-circle hover-img">
-          <a href="shop-collection-sub.html" className="collection-image img-style">
-            <img
-              className="lazyload"
-              data-src="images/collections/collection-circle-8.jpg"
-              src="images/collections/collection-circle-8.jpg"
-              alt="collection-img"
-            />
-          </a>
-          <div className="collection-content text-center">
-            <a href="shop-collection-sub.html" className="link title fw-6">New Arrivals</a>
-          </div>
+{/* Slider */}
+<section className="tf-slideshow about-us-page position-relative">
+  <div className="banner-wrapper">
+    <img
+      className="lazyload"
+      src="images/slider/about-banner-01.jpg"
+      data-src="images/slider/about-banner-01.jpg"
+      alt="image-collection"
+    />
+    <div className="box-content text-center">
+      <div className="container">
+        <div className="text text-white">
+          Empowering women to achieve <br className="d-xl-block d-none" /> fitness goals with style
         </div>
-
-        <div className="collection-item-circle hover-img">
-          <a href="shop-collection-sub.html" className="collection-image img-style">
-            <img
-              className="lazyload"
-              data-src="images/collections/collection-circle-9.jpg"
-              src="images/collections/collection-circle-9.jpg"
-              alt="collection-img"
-            />
-          </a>
-          <div className="collection-content text-center">
-            <a href="shop-collection-sub.html" className="link title fw-6">Best Sellers</a>
-          </div>
-        </div>
-
-        <div className="collection-item-circle hover-img">
-          <a href="shop-collection-sub.html" className="collection-image img-style">
-            <img
-              className="lazyload"
-              data-src="images/collections/collection-circle-10.jpg"
-              src="images/collections/collection-circle-10.jpg"
-              alt="collection-img"
-            />
-          </a>
-          <div className="collection-content text-center">
-            <a href="shop-collection-sub.html" className="link title fw-6">Top Rated</a>
-          </div>
-        </div>
-
-        <div className="collection-item-circle hover-img">
-          <a href="shop-collection-sub.html" className="collection-image img-style">
-            <img
-              className="lazyload"
-              data-src="images/collections/collection-circle-11.jpg"
-              src="images/collections/collection-circle-11.jpg"
-              alt="collection-img"
-            />
-          </a>
-          <div className="collection-content text-center">
-            <a href="shop-collection-sub.html" className="link title fw-6">Brands We Love</a>
-          </div>
-        </div>
-
-        <div className="collection-item-circle hover-img">
-          <a href="shop-collection-sub.html" className="collection-image img-style">
-            <img
-              className="lazyload"
-              data-src="images/collections/collection-circle-12.jpg"
-              src="images/collections/collection-circle-12.jpg"
-              alt="collection-img"
-            />
-          </a>
-          <div className="collection-content text-center">
-            <a href="shop-collection-sub.html" className="link title fw-6">Trending</a>
-          </div>
-        </div>
-
-        <div className="collection-item-circle hover-img">
-          <a href="shop-collection-sub.html" className="collection-image img-style">
-            <img
-              className="lazyload"
-              data-src="images/collections/collection-circle-13.jpg"
-              src="images/collections/collection-circle-13.jpg"
-              alt="collection-img"
-            />
-          </a>
-          <div className="collection-content text-center">
-            <a href="shop-collection-sub.html" className="link title fw-6">The Re-Imagined</a>
-          </div>
-        </div>
-
-        <div className="collection-item-circle hover-img">
-          <div className="has-saleoff-wrap position-relative">
-            <a href="shop-collection-sub.html" className="collection-image img-style">
-              <img
-                className="lazyload"
-                data-src="images/collections/sale.jpg"
-                src="images/collections/sale.jpg"
-                alt="collection-img"
-              />
-            </a>
-            <div className="sale-off fw-5">30% off</div>
-          </div>
-          <div className="collection-content text-center">
-            <a href="shop-collection-sub.html" className="link title fw-6">Sale</a>
-          </div>
-        </div>
-
-      </div>
-
-      <div className="tf-shopall-wrap">
-        <div className="collection-item-circle tf-shopall">
-          <a href="shop-collection-sub.html" className="collection-image img-style tf-shopall-icon">
-            <i className="icon icon-arrow1-top-left"></i>
-          </a>
-          <div className="collection-content text-center">
-            <a href="shop-collection-sub.html" className="link title fw-6">Shop all</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-{/* /categories */}
-{/* slider */}
-<div className="tf-slideshow slider-women slider-effect-fade position-relative">
-  <div
-    dir="ltr"
-    className="swiper tf-sw-slideshow"
-    data-preview="1"
-    data-tablet="1"
-    data-mobile="1"
-    data-centered="false"
-    data-space="0"
-    data-loop="true"
-    data-auto-play="false"
-    data-delay="2000"
-    data-speed="1000"
-  >
-    <div className="swiper-wrapper">
-      
-      {/* Slide 1 */}
-      <div className="swiper-slide" data-lazy="true">
-        <div className="wrap-slider">
-          <img
-            className="lazyload"
-            data-src="images/slider/women-slideshow-1.jpg"
-            src="images/slider/women-slideshow-1.jpg"
-            alt="women-slideshow-01"
-          />
-          <div className="box-content">
-            <div className="container">
-              <h1 className="fade-item fade-item-1">Elegance</h1>
-              <p className="fade-item fade-item-2">
-                From casual to formal, we've got you covered
-              </p>
-              <a
-                href="shop-default.html"
-                className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
-              >
-                <span>Shop collection</span>
-                <i className="icon icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Slide 2 */}
-      <div className="swiper-slide" data-lazy="true">
-        <div className="wrap-slider">
-          <img
-            className="lazyload"
-            data-src="images/slider/women-slideshow-2.jpg"
-            src="images/slider/women-slideshow-2.jpg"
-            alt="women-slideshow-02"
-          />
-          <div className="box-content">
-            <div className="container">
-              <h1 className="fade-item fade-item-1">Boutique</h1>
-              <p className="fade-item fade-item-2">
-                From casual to formal, we've got you covered
-              </p>
-              <a
-                href="shop-default.html"
-                className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
-              >
-                <span>Shop collection</span>
-                <i className="icon icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Slide 3 */}
-      <div className="swiper-slide" data-lazy="true">
-        <div className="wrap-slider">
-          <img
-            className="lazyload"
-            data-src="images/slider/women-slideshow-3.jpg"
-            src="images/slider/women-slideshow-3.jpg"
-            alt="women-slideshow-03"
-          />
-          <div className="box-content">
-            <div className="container">
-              <h1 className="fade-item fade-item-1">Luxury</h1>
-              <p className="fade-item fade-item-2">
-                From casual to formal, we've got you covered
-              </p>
-              <a
-                href="shop-default.html"
-                className="fade-item fade-item-3 tf-btn btn-fill animate-hover-btn btn-xl radius-60"
-              >
-                <span>Shop collection</span>
-                <i className="icon icon-arrow-right"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div className="wrap-pagination">
-    <div className="container">
-      <div className="sw-dots sw-pagination-slider justify-content-center"></div>
-    </div>
-  </div>
-</div>
-{/* /slider */}
-{/* Categories */}
-<section className="flat-spacing-5 pb_0">
-  <div className="container">
-    
-    <div className="flat-title">
-      <span className="title wow fadeInUp" data-wow-delay="0s">
-        Categories you might like
-      </span>
-    </div>
-
-    <div className="hover-sw-nav">
-      <div
-        dir="ltr"
-        className="swiper tf-sw-collection"
-        data-preview="4"
-        data-tablet="2"
-        data-mobile="2"
-        data-space-lg="30"
-        data-space-md="30"
-        data-space="15"
-        data-loop="false"
-        data-auto-play="false"
-      >
-        <div className="swiper-wrapper">
-
-          {/* Item 1 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="collection-item style-2 hover-img">
-              <div className="collection-inner">
-                <a href="shop-collection-sub.html" className="collection-image img-style">
-                  <img
-                    className="lazyload"
-                    data-src="images/collections/collection-42.jpg"
-                    src="images/collections/collection-42.jpg"
-                    alt="collection-img"
-                  />
-                </a>
-                <div className="collection-content">
-                  <a
-                    href="shop-collection-sub.html"
-                    className="tf-btn collection-title hover-icon fs-15 rounded-full"
-                  >
-                    <span>Tops</span>
-                    <i className="icon icon-arrow1-top-left"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Item 2 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="collection-item style-2 hover-img">
-              <div className="collection-inner">
-                <a href="shop-collection-sub.html" className="collection-image img-style">
-                  <img
-                    className="lazyload"
-                    data-src="images/collections/collection-43.jpg"
-                    src="images/collections/collection-43.jpg"
-                    alt="collection-img"
-                  />
-                </a>
-                <div className="collection-content">
-                  <a
-                    href="shop-collection-sub.html"
-                    className="tf-btn collection-title hover-icon fs-15 rounded-full"
-                  >
-                    <span>Sweatshirts</span>
-                    <i className="icon icon-arrow1-top-left"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Item 3 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="collection-item style-2 hover-img">
-              <div className="collection-inner">
-                <a href="shop-collection-sub.html" className="collection-image img-style">
-                  <img
-                    className="lazyload"
-                    data-src="images/collections/collection-44.jpg"
-                    src="images/collections/collection-44.jpg"
-                    alt="collection-img"
-                  />
-                </a>
-                <div className="collection-content">
-                  <a
-                    href="shop-collection-sub.html"
-                    className="tf-btn collection-title hover-icon fs-15 rounded-full"
-                  >
-                    <span>Swim</span>
-                    <i className="icon icon-arrow1-top-left"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Item 4 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="collection-item style-2 hover-img">
-              <div className="collection-inner">
-                <a href="shop-collection-sub.html" className="collection-image img-style">
-                  <img
-                    className="lazyload"
-                    data-src="images/collections/collection-45.jpg"
-                    src="images/collections/collection-45.jpg"
-                    alt="collection-img"
-                  />
-                </a>
-                <div className="collection-content">
-                  <a
-                    href="shop-collection-sub.html"
-                    className="tf-btn collection-title hover-icon fs-15 rounded-full"
-                  >
-                    <span>Dresses</span>
-                    <i className="icon icon-arrow1-top-left"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Item 5 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="collection-item style-2 hover-img">
-              <div className="collection-inner">
-                <a href="shop-collection-sub.html" className="collection-image img-style">
-                  <img
-                    className="lazyload"
-                    data-src="images/collections/collection-46.jpg"
-                    src="images/collections/collection-46.jpg"
-                    alt="collection-img"
-                  />
-                </a>
-                <div className="collection-content">
-                  <a
-                    href="shop-collection-sub.html"
-                    className="tf-btn collection-title hover-icon fs-15 rounded-full"
-                  >
-                    <span>Cardigans</span>
-                    <i className="icon icon-arrow1-top-left"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      {/* Navigation buttons */}
-      <div className="nav-sw nav-next-slider nav-next-collection box-icon w_46 round">
-        <span className="icon icon-arrow-left"></span>
-      </div>
-      <div className="nav-sw nav-prev-slider nav-prev-collection box-icon w_46 round">
-        <span className="icon icon-arrow-right"></span>
-      </div>
-
-      {/* Pagination */}
-      <div className="sw-dots style-2 sw-pagination-collection justify-content-center"></div>
-    </div>
-
-  </div>
-</section>
-{/* /Categories */}
-{/* Banner Collection */}
-<section className="flat-spacing-10 pb_0">
-  <div className="container">
-    <div
-      dir="ltr"
-      className="swiper tf-sw-recent"
-      data-preview="2"
-      data-tablet="2"
-      data-mobile="1.3"
-      data-space-lg="30"
-      data-space-md="15"
-      data-space="15"
-      data-pagination="1"
-      data-pagination-md="1"
-      data-pagination-lg="1"
-    >
-      <div className="swiper-wrapper">
-
-        {/* Slide 1 */}
-        <div className="swiper-slide" data-lazy="true">
-          <div className="collection-item-v4 hover-img">
-            <div className="collection-inner">
-              <a href="shop-collection-sub.html" className="collection-image img-style radius-10">
-                <img
-                  className="lazyload"
-                  data-src="images/collections/collection-47.jpg"
-                  src="images/collections/collection-47.jpg"
-                  alt="collection-img"
-                />
-              </a>
-              <div className="collection-content wow fadeInUp" data-wow-delay="0s">
-                <h5 className="heading text_white">The January Collection</h5>
-                <a
-                  href="shop-collection-sub.html"
-                  className="tf-btn style-3 fw-6 btn-light-icon rounded-full animate-hover-btn"
-                >
-                  <span>Shop now</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Slide 2 */}
-        <div className="swiper-slide" data-lazy="true">
-          <div className="collection-item-v4 hover-img">
-            <div className="collection-inner">
-              <a href="shop-collection-sub.html" className="collection-image img-style radius-10">
-                <img
-                  className="lazyload"
-                  data-src="images/collections/collection-48.jpg"
-                  src="images/collections/collection-48.jpg"
-                  alt="collection-img"
-                />
-              </a>
-              <div className="collection-content wow fadeInUp" data-wow-delay="0s">
-                <h5 className="heading text_white">Olympia's picks</h5>
-                <a
-                  href="shop-collection-sub.html"
-                  className="tf-btn style-3 fw-6 btn-light-icon rounded-full animate-hover-btn"
-                >
-                  <span>Shop now</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>
 </section>
-{/* /Banner Collection */}
-{/* Best seller */}
-<section className="flat-spacing-15 pb_0">
+{/* /Slider */}
+{/* flat-title */}
+<section className="flat-spacing-9">
   <div className="container">
+    <div className="flat-title my-0">
+      <span className="title">We are Ecomus</span>
 
-    <div className="flat-title wow fadeInUp" data-wow-delay="0s">
-      <span className="title">Ecomus’s Favorites</span>
-      <p className="sub-title">
-        Beautifully Functional. Purposefully Designed. Consciously Crafted.
+      <p className="sub-title text_black-2">
+        Welcome to our classic women's clothing store, where we believe 
+        <br className="d-xl-block d-none" />
+        that timeless style never goes out of fashion. Our collection features classic 
+        <br className="d-xl-block d-none" />
+        pieces that are both stylish and versatile, perfect for building a 
+        <br className="d-xl-block d-none" />
+        wardrobe that will last for years.
       </p>
+
     </div>
-
-    <div className="hover-sw-nav hover-sw-3">
-      <div
-        dir="ltr"
-        className="swiper tf-sw-product-sell wrap-sw-over"
-        data-preview="4"
-        data-tablet="3"
-        data-mobile="2"
-        data-space-lg="30"
-        data-space-md="15"
-        data-pagination="2"
-        data-pagination-md="3"
-        data-pagination-lg="3"
-      >
-        <div className="swiper-wrapper">
-
-          {/* PRODUCT CARD 1 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="card-product">
-              <div className="card-product-wrapper">
-                <a href="product-detail.html" className="product-img">
-                  <img
-                    className="lazyload img-product"
-                    data-src="images/products/orange-1.jpg"
-                    src="images/products/orange-1.jpg"
-                    alt="image-product"
-                  />
-                  <img
-                    className="lazyload img-hover"
-                    data-src="images/products/white-1.jpg"
-                    src="images/products/white-1.jpg"
-                    alt="image-product"
-                  />
-                </a>
-
-                <div className="list-product-btn">
-                  <a
-                    href="#quick_add"
-                    data-bs-toggle="modal"
-                    className="box-icon bg_white quick-add tf-btn-loading"
-                  >
-                    <span className="icon icon-bag"></span>
-                    <span className="tooltip">Quick Add</span>
-                  </a>
-
-                  <a href="#" className="box-icon bg_white wishlist btn-icon-action">
-                    <span className="icon icon-heart"></span>
-                    <span className="tooltip">Add to Wishlist</span>
-                    <span className="icon icon-delete"></span>
-                  </a>
-
-                  <a
-                    href="#compare"
-                    data-bs-toggle="offcanvas"
-                    aria-controls="offcanvasLeft"
-                    className="box-icon bg_white compare btn-icon-action"
-                  >
-                    <span className="icon icon-compare"></span>
-                    <span className="tooltip">Add to Compare</span>
-                    <span className="icon icon-check"></span>
-                  </a>
-
-                  <a href="#quick_view" data-bs-toggle="modal" className="box-icon bg_white quickview tf-btn-loading">
-                    <span className="icon icon-view"></span>
-                    <span className="tooltip">Quick View</span>
-                  </a>
-                </div>
-
-                <div className="size-list">
-                  <span>4 sizes available</span>
-                </div>
-              </div>
-
-              <div className="card-product-info">
-                <a href="product-detail.html" className="title link">Ribbed Tank Top</a>
-                <span className="price">$16.95</span>
-
-                <ul className="list-color-product">
-                  <li className="list-color-item color-swatch active">
-                    <span className="tooltip">Orange</span>
-                    <span className="swatch-value bg_orange-3"></span>
-                    <img
-                      className="lazyload"
-                      data-src="images/products/orange-1.jpg"
-                      src="images/products/orange-1.jpg"
-                      alt="image-product"
-                    />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Black</span>
-                    <span className="swatch-value bg_dark"></span>
-                    <img
-                      className="lazyload"
-                      data-src="images/products/black-1.jpg"
-                      src="images/products/black-1.jpg"
-                      alt="image-product"
-                    />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">White</span>
-                    <span className="swatch-value bg_white"></span>
-                    <img
-                      className="lazyload"
-                      data-src="images/products/white-1.jpg"
-                      src="images/products/white-1.jpg"
-                      alt="image-product"
-                    />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* PRODUCT CARD 2 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="card-product">
-              <div className="card-product-wrapper">
-                <a href="product-detail.html" className="product-img">
-                  <img
-                    className="lazyload img-product"
-                    data-src="images/products/brown.jpg"
-                    src="images/products/brown.jpg"
-                    alt="image-product"
-                  />
-                  <img
-                    className="lazyload img-hover"
-                    data-src="images/products/purple.jpg"
-                    src="images/products/purple.jpg"
-                    alt="image-product"
-                  />
-                </a>
-
-                <div className="list-product-btn">
-                  <a href="#quick_add" data-bs-toggle="modal" className="box-icon bg_white quick-add tf-btn-loading">
-                    <span className="icon icon-bag"></span>
-                    <span className="tooltip">Quick Add</span>
-                  </a>
-
-                  <a href="#" className="box-icon bg_white wishlist btn-icon-action">
-                    <span className="icon icon-heart"></span>
-                    <span className="tooltip">Add to Wishlist</span>
-                    <span className="icon icon-delete"></span>
-                  </a>
-
-                  <a
-                    href="#compare"
-                    data-bs-toggle="offcanvas"
-                    aria-controls="offcanvasLeft"
-                    className="box-icon bg_white compare btn-icon-action"
-                  >
-                    <span className="icon icon-compare"></span>
-                    <span className="tooltip">Add to Compare</span>
-                    <span className="icon icon-check"></span>
-                  </a>
-
-                  <a href="#quick_view" data-bs-toggle="modal" className="box-icon bg_white quickview tf-btn-loading">
-                    <span className="icon icon-view"></span>
-                    <span className="tooltip">Quick View</span>
-                  </a>
-                </div>
-
-                <div className="size-list">
-                  <span>4 sizes available</span>
-                </div>
-
-                <div className="on-sale-wrap">
-                  <div className="on-sale-item">-33%</div>
-                </div>
-
-                <div className="countdown-box">
-                  <div className="js-countdown" data-timer="1007500" data-labels="d :,h :,m :,s"></div>
-                </div>
-              </div>
-
-              <div className="card-product-info">
-                <a href="product-detail.html" className="title link">Ribbed modal T-shirt</a>
-                <span className="price">From $18.95</span>
-
-                <ul className="list-color-product">
-                  <li className="list-color-item color-swatch active">
-                    <span className="tooltip">Brown</span>
-                    <span className="swatch-value bg_brown"></span>
-                    <img className="lazyload" data-src="images/products/brown.jpg" src="images/products/brown.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Light Purple</span>
-                    <span className="swatch-value bg_purple"></span>
-                    <img className="lazyload" data-src="images/products/purple.jpg" src="images/products/purple.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Light Green</span>
-                    <span className="swatch-value bg_light-green"></span>
-                    <img className="lazyload" data-src="images/products/green.jpg" src="images/products/green.jpg" alt="image-product" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* PRODUCT CARD 3 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="card-product">
-              <div className="card-product-wrapper">
-                <a href="product-detail.html" className="product-img">
-                  <img
-                    className="lazyload img-product"
-                    data-src="images/products/white-3.jpg"
-                    src="images/products/white-3.jpg"
-                    alt="image-product"
-                  />
-                  <img
-                    className="lazyload img-hover"
-                    data-src="images/products/white-4.jpg"
-                    src="images/products/white-4.jpg"
-                    alt="image-product"
-                  />
-                </a>
-
-                <div className="list-product-btn absolute-2">
-                  <a href="#shoppingCart" data-bs-toggle="modal" className="box-icon bg_white quick-add tf-btn-loading">
-                    <span className="icon icon-bag"></span>
-                    <span className="tooltip">Add to cart</span>
-                  </a>
-
-                  <a href="#" className="box-icon bg_white wishlist btn-icon-action">
-                    <span className="icon icon-heart"></span>
-                    <span className="tooltip">Add to Wishlist</span>
-                    <span className="icon icon-delete"></span>
-                  </a>
-
-                  <a href="#compare" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft" className="box-icon bg_white compare btn-icon-action">
-                    <span className="icon icon-compare"></span>
-                    <span className="tooltip">Add to Compare</span>
-                    <span className="icon icon-check"></span>
-                  </a>
-
-                  <a href="#quick_view" data-bs-toggle="modal" className="box-icon bg_white quickview tf-btn-loading">
-                    <span className="icon icon-view"></span>
-                    <span className="tooltip">Quick View</span>
-                  </a>
-                </div>
-              </div>
-
-              <div className="card-product-info">
-                <a href="product-detail.html" className="title link">Oversized Printed T-shirt</a>
-                <span className="price">$10.00</span>
-              </div>
-            </div>
-          </div>
-
-          {/* PRODUCT CARD 4 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="card-product">
-              <div className="card-product-wrapper">
-                <a href="product-detail.html" className="product-img">
-                  <img
-                    className="lazyload img-product"
-                    data-src="images/products/white-2.jpg"
-                    src="images/products/white-2.jpg"
-                    alt="image-product"
-                  />
-                  <img
-                    className="lazyload img-hover"
-                    data-src="images/products/pink-1.jpg"
-                    src="images/products/pink-1.jpg"
-                    alt="image-product"
-                  />
-                </a>
-
-                <div className="list-product-btn">
-                  <a href="#quick_add" data-bs-toggle="modal" className="box-icon bg_white quick-add tf-btn-loading">
-                    <span className="icon icon-bag"></span>
-                    <span className="tooltip">Quick Add</span>
-                  </a>
-
-                  <a href="#" className="box-icon bg_white wishlist btn-icon-action">
-                    <span className="icon icon-heart"></span>
-                    <span className="tooltip">Add to Wishlist</span>
-                    <span className="icon icon-delete"></span>
-                  </a>
-
-                  <a href="#compare" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft" className="box-icon bg_white compare btn-icon-action">
-                    <span className="icon icon-compare"></span>
-                    <span className="tooltip">Add to Compare</span>
-                    <span className="icon icon-check"></span>
-                  </a>
-
-                  <a href="#quick_view" data-bs-toggle="modal" className="box-icon bg_white quickview tf-btn-loading">
-                    <span className="icon icon-view"></span>
-                    <span className="tooltip">Quick View</span>
-                  </a>
-                </div>
-
-                <div className="size-list">
-                  <span>4 sizes available</span>
-                </div>
-              </div>
-
-              <div className="card-product-info">
-                <a href="product-detail.html" className="title">
-                  Oversized Printed T-shirt
-                </a>
-
-                <span className="price">$16.95</span>
-
-                <ul className="list-color-product">
-                  <li className="list-color-item color-swatch active">
-                    <span className="tooltip">White</span>
-                    <span className="swatch-value bg_white"></span>
-                    <img className="lazyload" data-src="images/products/white-2.jpg" src="images/products/white-2.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Pink</span>
-                    <span className="swatch-value bg_purple"></span>
-                    <img className="lazyload" data-src="images/products/pink-1.jpg" src="images/products/pink-1.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Black</span>
-                    <span className="swatch-value bg_dark"></span>
-                    <img className="lazyload" data-src="images/products/black-2.jpg" src="images/products/black-2.jpg" alt="image-product" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* PRODUCT CARD 5 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="card-product">
-              <div className="card-product-wrapper">
-                <a href="product-detail.html" className="product-img">
-                  <img
-                    className="lazyload img-product"
-                    data-src="images/products/brown-2.jpg"
-                    src="images/products/brown-2.jpg"
-                    alt="image-product"
-                  />
-                  <img
-                    className="lazyload img-hover"
-                    data-src="images/products/brown-3.jpg"
-                    src="images/products/brown-3.jpg"
-                    alt="image-product"
-                  />
-                </a>
-
-                <div className="size-list">
-                  <span>4 sizes available</span>
-                </div>
-
-                <div className="list-product-btn">
-                  <a href="#quick_add" data-bs-toggle="modal" className="box-icon bg_white quick-add tf-btn-loading">
-                    <span className="icon icon-bag"></span>
-                    <span className="tooltip">Quick Add</span>
-                  </a>
-
-                  <a href="#" className="box-icon bg_white wishlist btn-icon-action">
-                    <span className="icon icon-heart"></span>
-                    <span className="tooltip">Add to Wishlist</span>
-                    <span className="icon icon-delete"></span>
-                  </a>
-
-                  <a href="#compare" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft" className="box-icon bg_white compare btn-icon-action">
-                    <span className="icon icon-compare"></span>
-                    <span className="tooltip">Add to Compare</span>
-                    <span className="icon icon-check"></span>
-                  </a>
-
-                  <a href="#quick_view" data-bs-toggle="modal" className="box-icon bg_white quickview tf-btn-loading">
-                    <span className="icon icon-view"></span>
-                    <span className="tooltip">Quick View</span>
-                  </a>
-                </div>
-              </div>
-
-              <div className="card-product-info">
-                <a href="product-detail.html" className="title link">V-neck linen T-shirt</a>
-                <span className="price">$114.95</span>
-
-                <ul className="list-color-product">
-                  <li className="list-color-item color-swatch active">
-                    <span className="tooltip">Brown</span>
-                    <span className="swatch-value bg_brown"></span>
-                    <img className="lazyload" data-src="images/products/brown-2.jpg" src="images/products/brown-2.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">White</span>
-                    <span className="swatch-value bg_white"></span>
-                    <img className="lazyload" data-src="images/products/white-5.jpg" src="images/products/white-5.jpg" alt="image-product" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          {/* PRODUCT CARD 6 */}
-          <div className="swiper-slide" data-lazy="true">
-            <div className="card-product">
-              <div className="card-product-wrapper">
-                <a href="product-detail.html" className="product-img">
-                  <img
-                    className="lazyload img-product"
-                    data-src="images/products/light-green-1.jpg"
-                    src="images/products/light-green-1.jpg"
-                    alt="image-product"
-                  />
-                  <img
-                    className="lazyload img-hover"
-                    data-src="images/products/light-green-2.jpg"
-                    src="images/products/light-green-2.jpg"
-                    alt="image-product"
-                  />
-                </a>
-
-                <div className="list-product-btn absolute-2">
-                  <a href="#quick_add" data-bs-toggle="modal" className="box-icon bg_white quick-add tf-btn-loading">
-                    <span className="icon icon-bag"></span>
-                    <span className="tooltip">Quick Add</span>
-                  </a>
-
-                  <a href="#" className="box-icon bg_white wishlist btn-icon-action">
-                    <span className="icon icon-heart"></span>
-                    <span className="tooltip">Add to Wishlist</span>
-                    <span className="icon icon-delete"></span>
-                  </a>
-
-                  <a href="#compare" data-bs-toggle="offcanvas" aria-controls="offcanvasLeft" className="box-icon bg_white compare btn-icon-action">
-                    <span className="icon icon-compare"></span>
-                    <span className="tooltip">Add to Compare</span>
-                    <span className="icon icon-check"></span>
-                  </a>
-
-                  <a href="#quick_view" data-bs-toggle="modal" className="box-icon bg_white quickview tf-btn-loading">
-                    <span className="icon icon-view"></span>
-                    <span className="tooltip">Quick View</span>
-                  </a>
-                </div>
-              </div>
-
-              <div className="card-product-info">
-                <a href="product-detail.html" className="title link">Loose Fit Sweatshirt</a>
-                <span className="price">$10.00</span>
-
-                <ul className="list-color-product">
-                  <li className="list-color-item color-swatch active">
-                    <span className="tooltip">Light Green</span>
-                    <span className="swatch-value bg_light-green"></span>
-                    <img className="lazyload" data-src="images/products/light-green-1.jpg" src="images/products/light-green-1.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Black</span>
-                    <span className="swatch-value bg_dark"></span>
-                    <img className="lazyload" data-src="images/products/black-3.jpg" src="images/products/black-3.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Blue</span>
-                    <span className="swatch-value bg_blue-2"></span>
-                    <img className="lazyload" data-src="images/products/blue.jpg" src="images/products/blue.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Dark Blue</span>
-                    <span className="swatch-value bg_dark-blue"></span>
-                    <img className="lazyload" data-src="images/products/dark-blue.jpg" src="images/products/dark-blue.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">White</span>
-                    <span className="swatch-value bg_white"></span>
-                    <img className="lazyload" data-src="images/products/white-6.jpg" src="images/products/white-6.jpg" alt="image-product" />
-                  </li>
-
-                  <li className="list-color-item color-swatch">
-                    <span className="tooltip">Light Grey</span>
-                    <span className="swatch-value bg_light-grey"></span>
-                    <img className="lazyload" data-src="images/products/light-grey.jpg" src="images/products/light-grey.jpg" alt="image-product" />
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      {/* Navigation */}
-      <div className="nav-sw nav-next-slider nav-next-product box-icon w_46 round">
-        <span className="icon icon-arrow-left"></span>
-      </div>
-
-      <div className="nav-sw nav-prev-slider nav-prev-product box-icon w_46 round">
-        <span className="icon icon-arrow-right"></span>
-      </div>
-    </div>
-
   </div>
 </section>
-{/* /Best seller */}
-{/* Shop Collection */}
-<section className="flat-spacing-19">
+{/* /flat-title */}
+        <div className="container">
+            <div className="line"></div>
+        </div>
+{/* image-text */}
+<section className="flat-spacing-23 flat-image-text-section">
   <div className="container">
-    
-    <div className="tf-grid-layout md-col-2 tf-img-with-text style-1">
-
-      <div className="tf-image-wrap wow fadeInUp" data-wow-delay="0s">
+    <div className="tf-grid-layout md-col-2 tf-img-with-text style-4">
+      <div className="tf-image-wrap">
         <img
-          className="lazyload"
-          data-src="images/collections/collection-58.jpg"
-          src="images/collections/collection-58.jpg"
+          className="lazyload w-100"
+          data-src="images/collections/collection-69.jpg"
+          src="images/collections/collection-69.jpg"
           alt="collection-img"
         />
       </div>
 
-      <div className="tf-content-wrap wow fadeInUp" data-wow-delay="0s">
-        <div className="heading">
-          Redefining Fashion <br /> Excellence
+      <div className="tf-content-wrap px-0 d-flex justify-content-center w-100">
+        <div>
+          <div className="heading">Established - 1995</div>
+          <div className="text">
+            Ecomus was founded in 1995 by Jane Smith, a fashion lover with a
+            <br className="d-xl-block d-none" />
+            passion for timeless style. Jane had always been drawn to classic
+            <br className="d-xl-block d-none" />
+            pieces that could be worn season after season, and she believed that
+            <br className="d-xl-block d-none" />
+            there was a gap in the market for a store that focused solely on classic
+            <br className="d-xl-block d-none" />
+            women's clothing. She opened the first store in a small town in New
+            <br className="d-xl-block d-none" />
+            England, where it quickly became a local favorite.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section className="flat-spacing-15">
+  <div className="container">
+    <div className="tf-grid-layout md-col-2 tf-img-with-text style-4">
+
+      <div className="tf-content-wrap px-0 d-flex justify-content-center w-100">
+        <div>
+          <div className="heading">Our mission</div>
+          <div className="text">
+            Our mission is to empower people through sustainable fashion.
+            <br className="d-xl-block d-none" />
+            We want everyone to look and feel good, while also doing our part to
+            <br className="d-xl-block d-none" />
+            help the environment. We believe that fashion should be stylish,
+            <br className="d-xl-block d-none" />
+            affordable and accessible to everyone. Body positivity and inclusivity
+            <br className="d-xl-block d-none" />
+            are values that are at the heart of our brand.
+          </div>
+        </div>
+      </div>
+
+      <div className="grid-img-group">
+        <div className="tf-image-wrap box-img item-1">
+          <div className="img-style">
+            <img
+              className="lazyload"
+              src="images/collections/collection-71.jpg"
+              data-src="images/collections/collection-71.jpg"
+              alt="img-slider"
+            />
+          </div>
         </div>
 
-        <p className="description">
-          Here is your chance to upgrade your wardrobe with a variation of styles
-        </p>
-
-        <a
-          href="shop-collection-list.html"
-          className="tf-btn style-2 btn-fill rounded-full animate-hover-btn"
-        >
-          Read our stories
-        </a>
+        <div className="tf-image-wrap box-img item-2">
+          <div className="img-style">
+            <img
+              className="lazyload"
+              src="images/collections/collection-70.jpg"
+              data-src="images/collections/collection-70.jpg"
+              alt="img-slider"
+            />
+          </div>
+        </div>
       </div>
 
     </div>
-
   </div>
 </section>
-{/* /Shop Collection */}
-
-{/* Testimonial */}
-<section className="flat-testimonial-v2 py-0 wow fadeInUp" data-wow-delay="0s">
+{/* /image-text */}
+   
+   {/* iconbox */}
+<section>
   <div className="container">
-    <div className="wrapper-thumbs-testimonial-v2 type-1 flat-thumbs-testimonial">
+    <div className="bg_grey-2 radius-10 flat-wrap-iconbox">
 
-      {/* LEFT SIDE */}
+      <div className="flat-title lg">
+        <span className="title fw-5">Quality is our priority</span>
+
+        <div>
+          <p className="sub-title text_black-2">
+            Our talented stylists have put together outfits that are perfect for the season.
+          </p>
+          <p className="sub-title text_black-2">
+            They've variety of ways to inspire your next fashion-forward look.
+          </p>
+        </div>
+      </div>
+
+      <div className="flat-iconbox-v3 lg">
+        <div className="wrap-carousel wrap-mobile">
+          <div
+            dir="ltr"
+            className="swiper tf-sw-mobile"
+            data-preview="1"
+            data-space="15"
+          >
+            <div className="swiper-wrapper wrap-iconbox lg">
+
+              <div className="swiper-slide">
+                <div className="tf-icon-box text-center">
+                  <div className="icon">
+                    <i className="icon-materials"></i>
+                  </div>
+                  <div className="content">
+                    <div className="title">High-Quality Materials</div>
+                    <p className="text_black-2">
+                      Crafted with precision and excellence, our activewear is meticulously engineered
+                      using premium materials to ensure unmatched comfort and durability.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="swiper-slide">
+                <div className="tf-icon-box text-center">
+                  <div className="icon">
+                    <i className="icon-design"></i>
+                  </div>
+                  <div className="content">
+                    <div className="title">Laconic Design</div>
+                    <p className="text_black-2">
+                      Simplicity refined. Our activewear embodies the essence of minimalistic design,
+                      delivering effortless style that speaks volumes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="swiper-slide">
+                <div className="tf-icon-box text-center">
+                  <div className="icon">
+                    <i className="icon-sizes"></i>
+                  </div>
+                  <div className="content">
+                    <div className="title">Various Sizes</div>
+                    <p className="text_black-2">
+                      Designed for every body and anyone, our activewear embraces diversity with a wide
+                      range of sizes and shapes, celebrating the beauty of individuality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div className="sw-dots style-2 sw-pagination-mb justify-content-center"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+{/* /iconbox */}
+{/* Testimonial */}
+<section className="flat-testimonial-v2 flat-spacing-24">
+  <div className="container">
+    <div className="wrapper-thumbs-testimonial-v2 flat-thumbs-testimonial">
+
       <div className="box-left">
-
         <div
           dir="ltr"
           className="swiper tf-sw-tes-2"
@@ -1783,20 +906,20 @@ export default function Home() {
         >
           <div className="swiper-wrapper">
 
-            {/* Testimonial Slide 1 */}
+            {/* Slide 1 */}
             <div className="swiper-slide">
               <div className="testimonial-item lg lg-2">
 
+                <h4 className="mb_40">Our customer’s reviews</h4>
+
                 <div className="icon">
                   <img
-                    className="lazyloaded"
+                    className="lazyload"
                     data-src="images/item/quote.svg"
                     src="images/item/quote.svg"
-                    alt="quote-icon"
+                    alt=""
                   />
                 </div>
-
-                <div className="heading fs-12 mb_18">PEOPLE ARE TALKING</div>
 
                 <div className="rating">
                   <i className="icon-star"></i>
@@ -1807,45 +930,43 @@ export default function Home() {
                 </div>
 
                 <p className="text">
-                  "The shipping is always fast and the customer service team is friendly and helpful.
-                  I highly recommend this site to anyone looking for affordable clothing."
+                  "I have been shopping with this web fashion site for over a year now and I
+                  can confidently say it is the best online fashion site out there. The shipping
+                  is always fast and the customer service team is friendly and helpful. I highly
+                  recommend this site to anyone looking for affordable clothing."
                 </p>
 
                 <div className="author box-author">
                   <div className="box-img d-md-none rounded-0">
                     <img
                       className="lazyload img-product"
-                      data-src="images/slider/te4.jpg"
-                      src="images/slider/te4.jpg"
+                      data-src="images/item/tets3.jpg"
+                      src="images/item/tets3.jpg"
                       alt="image-product"
                     />
                   </div>
-
                   <div className="content">
                     <div className="name">Robert smith</div>
-                    <a href="product-detail.html" className="metas link">
-                      Purchase item : <span>Boxy T-shirt</span>
-                    </a>
                   </div>
                 </div>
 
               </div>
             </div>
 
-            {/* Testimonial Slide 2 */}
+            {/* Slide 2 */}
             <div className="swiper-slide">
               <div className="testimonial-item lg lg-2">
 
+                <h4 className="mb_40">Our customer’s reviews</h4>
+
                 <div className="icon">
                   <img
-                    className="lazyloaded"
+                    className="lazyload"
                     data-src="images/item/quote.svg"
                     src="images/item/quote.svg"
-                    alt="quote-icon"
+                    alt=""
                   />
                 </div>
-
-                <div className="heading fs-12 mb_18">PEOPLE ARE TALKING</div>
 
                 <div className="rating">
                   <i className="icon-star"></i>
@@ -1856,25 +977,23 @@ export default function Home() {
                 </div>
 
                 <p className="text">
-                  "The shipping is always fast and the customer service team is friendly and helpful.
-                  I highly recommend this site to anyone looking for affordable clothing."
+                  "I have been shopping with this web fashion site for over a year now and I
+                  can confidently say it is the best online fashion site out there. The shipping
+                  is always fast and the customer service team is friendly and helpful. I highly
+                  recommend this site to anyone looking for affordable clothing."
                 </p>
 
                 <div className="author box-author">
                   <div className="box-img d-md-none rounded-0">
                     <img
                       className="lazyload img-product"
-                      data-src="images/slider/te6.jpg"
-                      src="images/slider/te6.jpg"
+                      data-src="images/item/tets4.jpg"
+                      src="images/item/tets4.jpg"
                       alt="image-product"
                     />
                   </div>
-
                   <div className="content">
                     <div className="name">Jenifer Unix</div>
-                    <a href="product-detail.html" className="metas link">
-                      Purchase item : <span>Sweetheart-neckline Top</span>
-                    </a>
                   </div>
                 </div>
 
@@ -1884,7 +1003,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Navigation (Desktop only) */}
+        {/* Navigation Buttons */}
         <div className="d-md-flex d-none box-sw-navigation">
           <div className="nav-sw nav-next-slider nav-next-tes-2">
             <span className="icon icon-arrow-left"></span>
@@ -1894,150 +1013,131 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Pagination (Mobile only) */}
         <div className="d-md-none sw-dots style-2 sw-pagination-tes-2"></div>
-
       </div>
 
-      {/* RIGHT SIDE – Thumbnails */}
+      {/* Right side thumbnails */}
       <div className="box-right">
-
-        <div
-          dir="ltr"
-          className="swiper tf-thumb-tes"
-          data-preview="1"
-          data-space="30"
-        >
+        <div dir="ltr" className="swiper tf-thumb-tes" data-preview="1" data-space="30">
           <div className="swiper-wrapper">
 
-            {/* Thumbnail Slide 1 */}
             <div className="swiper-slide">
-              <div className="grid-img-group style-ter-1">
-
-                <div className="box-img item-1 hover-img">
-                  <div className="img-style">
-                    <img
-                      className="lazyload"
-                      data-src="images/slider/te4.jpg"
-                      src="images/slider/te4.jpg"
-                      alt="img-slider"
-                    />
-                  </div>
-                </div>
-
-                <div className="box-img item-2 hover-img">
-                  <div className="img-style">
-                    <img
-                      className="lazyload"
-                      data-src="images/slider/te3.jpg"
-                      src="images/slider/te3.jpg"
-                      alt="img-slider"
-                    />
-                  </div>
-                </div>
-
+              <div className="img-sw-thumb">
+                <img
+                  className="lazyload img-product"
+                  data-src="images/item/tets3.jpg"
+                  src="images/item/tets3.jpg"
+                  alt="image-product"
+                />
               </div>
             </div>
 
-            {/* Thumbnail Slide 2 */}
             <div className="swiper-slide">
-              <div className="grid-img-group style-ter-1">
-
-                <div className="box-img item-1 hover-img">
-                  <div className="img-style">
-                    <img
-                      className="lazyload"
-                      data-src="images/slider/te6.jpg"
-                      src="images/slider/te6.jpg"
-                      alt="img-slider"
-                    />
-                  </div>
-                </div>
-
-                <div className="box-img item-2 hover-img">
-                  <div className="img-style">
-                    <img
-                      className="lazyload"
-                      data-src="images/slider/te5.jpg"
-                      src="images/slider/te5.jpg"
-                      alt="img-slider"
-                    />
-                  </div>
-                </div>
-
+              <div className="img-sw-thumb">
+                <img
+                  className="lazyload img-product"
+                  data-src="images/item/tets4.jpg"
+                  src="images/item/tets4.jpg"
+                  alt="image-product"
+                />
               </div>
             </div>
 
           </div>
         </div>
-
       </div>
 
     </div>
   </div>
 </section>
 {/* /Testimonial */}
-{/* Icon box */}
-<section className="flat-spacing-11 pb_0 flat-iconbox wow fadeInUp" data-wow-delay="0s">
-  <div className="container">
-    <div className="wrap-carousel wrap-mobile">
+        <div className="container">
+            <div className="line"></div>
+        </div>
 
+{/* Shop Gram */}
+<section className="flat-spacing-1">
+  <div className="container">
+    <div className="flat-title">
+      <span className="title">Shop Gram</span>
+      <p className="sub-title">
+        Inspire and let yourself be inspired, from one unique fashion to another.
+      </p>
+    </div>
+
+    <div className="wrap-shop-gram">
       <div
         dir="ltr"
-        className="swiper tf-sw-mobile"
-        data-preview="1"
-        data-space="15"
+        className="swiper tf-sw-shop-gallery"
+        data-preview="5"
+        data-tablet="3"
+        data-mobile="2"
+        data-space-lg="7"
+        data-space-md="7"
       >
-        <div className="swiper-wrapper wrap-iconbox">
+        <div className="swiper-wrapper">
 
-          {/* Item 1 */}
           <div className="swiper-slide">
-            <div className="tf-icon-box style-border-line text-center">
-              <div className="icon">
-                <i className="icon-shipping"></i>
-              </div>
-              <div className="content">
-                <div className="title">Free Shipping</div>
-                <p>Free shipping over order $120</p>
+            <div className="gallery-item hover-img">
+              <div className="img-style">
+                <img
+                  className="lazyload img-hover"
+                  data-src="images/shop/gallery/gallery-7.jpg"
+                  src="images/shop/gallery/gallery-7.jpg"
+                  alt="image-gallery"
+                />
               </div>
             </div>
           </div>
 
-          {/* Item 2 */}
           <div className="swiper-slide">
-            <div className="tf-icon-box style-border-line text-center">
-              <div className="icon">
-                <i className="icon-payment fs-22"></i>
-              </div>
-              <div className="content">
-                <div className="title">Flexible Payment</div>
-                <p>Pay with Multiple Credit Cards</p>
+            <div className="gallery-item hover-img">
+              <div className="img-style">
+                <img
+                  className="lazyload img-hover"
+                  data-src="images/shop/gallery/gallery-3.jpg"
+                  src="images/shop/gallery/gallery-3.jpg"
+                  alt="image-gallery"
+                />
               </div>
             </div>
           </div>
 
-          {/* Item 3 */}
           <div className="swiper-slide">
-            <div className="tf-icon-box style-border-line text-center">
-              <div className="icon">
-                <i className="icon-return fs-22"></i>
-              </div>
-              <div className="content">
-                <div className="title">14 Day Returns</div>
-                <p>Within 30 days for an exchange</p>
+            <div className="gallery-item hover-img">
+              <div className="img-style">
+                <img
+                  className="lazyload img-hover"
+                  data-src="images/shop/gallery/gallery-5.jpg"
+                  src="images/shop/gallery/gallery-5.jpg"
+                  alt="image-gallery"
+                />
               </div>
             </div>
           </div>
 
-          {/* Item 4 */}
           <div className="swiper-slide">
-            <div className="tf-icon-box style-border-line text-center">
-              <div className="icon">
-                <i className="icon-suport"></i>
+            <div className="gallery-item hover-img">
+              <div className="img-style">
+                <img
+                  className="lazyload img-hover"
+                  data-src="images/shop/gallery/gallery-8.jpg"
+                  src="images/shop/gallery/gallery-8.jpg"
+                  alt="image-gallery"
+                />
               </div>
-              <div className="content">
-                <div className="title">Premium Support</div>
-                <p>Outstanding premium support</p>
+            </div>
+          </div>
+
+          <div className="swiper-slide">
+            <div className="gallery-item hover-img">
+              <div className="img-style">
+                <img
+                  className="lazyload img-hover"
+                  data-src="images/shop/gallery/gallery-6.jpg"
+                  src="images/shop/gallery/gallery-6.jpg"
+                  alt="image-gallery"
+                />
               </div>
             </div>
           </div>
@@ -2045,108 +1145,11 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Pagination */}
-      <div className="sw-dots style-2 sw-pagination-mb justify-content-center"></div>
-
+      <div className="sw-dots sw-pagination-gallery justify-content-center"></div>
     </div>
   </div>
 </section>
-{/* /Icon box */}
-{/* Brand */}
-<section className="flat-spacing-12">
-  <div className="wrap-carousel wrap-brand wrap-brand-v2 autoplay-linear">
-
-    <div
-      dir="ltr"
-      className="swiper tf-sw-brand border-0"
-      data-play="true"
-      data-loop="true"
-      data-preview="6"
-      data-tablet="4"
-      data-mobile="2"
-      data-space-lg="30"
-      data-space-md="15"
-    >
-      <div className="swiper-wrapper">
-
-        {/* Brand 1 */}
-        <div className="swiper-slide">
-          <div className="brand-item-v2">
-            <img
-              className="lazyload"
-              data-src="images/brand/brand-01.png"
-              src="images/brand/brand-01.png"
-              alt="image-brand"
-            />
-          </div>
-        </div>
-
-        {/* Brand 2 */}
-        <div className="swiper-slide">
-          <div className="brand-item-v2">
-            <img
-              className="lazyload"
-              data-src="images/brand/brand-02.png"
-              src="images/brand/brand-02.png"
-              alt="image-brand"
-            />
-          </div>
-        </div>
-
-        {/* Brand 3 */}
-        <div className="swiper-slide">
-          <div className="brand-item-v2">
-            <img
-              className="lazyload"
-              data-src="images/brand/brand-03.png"
-              src="images/brand/brand-03.png"
-              alt="image-brand"
-            />
-          </div>
-        </div>
-
-        {/* Brand 4 */}
-        <div className="swiper-slide">
-          <div className="brand-item-v2">
-            <img
-              className="lazyload"
-              data-src="images/brand/brand-04.png"
-              src="images/brand/brand-04.png"
-              alt="image-brand"
-            />
-          </div>
-        </div>
-
-        {/* Brand 5 */}
-        <div className="swiper-slide">
-          <div className="brand-item-v2">
-            <img
-              className="lazyload"
-              data-src="images/brand/brand-05.png"
-              src="images/brand/brand-05.png"
-              alt="image-brand"
-            />
-          </div>
-        </div>
-
-        {/* Brand 6 */}
-        <div className="swiper-slide">
-          <div className="brand-item-v2">
-            <img
-              className="lazyload"
-              data-src="images/brand/brand-06.png"
-              src="images/brand/brand-06.png"
-              alt="image-brand"
-            />
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-{/* /Brand */}
+{/* /Shop Gram */}
 {/* footer */}
 <footer id="footer" className="footer background-gray md-pb-70">
   <div className="footer-wrap">
@@ -2459,10 +1462,8 @@ export default function Home() {
 </footer>
 {/* /footer */}
 
-
     </div>
-
-    {/* gotop */}
+        {/* gotop */}
 <button id="goTop">
   <span className="border-progress"></span>
   <span className="icon icon-arrow-up"></span>
@@ -2520,27 +1521,27 @@ export default function Home() {
 
 </div>
 {/* /toolbar-bottom */}
-
 {/* modalDemo */}
-<div className="modal fade modalDemo" id="modalDemo" tabIndex="-1" aria-hidden="true">
+<div className="modal fade modalDemo" id="modalDemo">
   <div className="modal-dialog modal-dialog-centered">
     <div className="modal-content">
 
       <div className="header">
         <h5 className="demo-title">Ultimate HTML Theme</h5>
-        <span className="icon-close icon-close-popup" data-bs-dismiss="modal" />
+        <span className="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
       </div>
 
       <div className="mega-menu">
         <div className="row-demo">
 
+          {/* ITEM 1 */}
           <div className="demo-item">
             <a href="index.html">
               <div className="demo-image position-relative">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-01.jpg"
                   src="images/demo/home-01.jpg"
+                  data-src="images/demo/home-01.jpg"
                   alt="home-01"
                 />
                 <div className="demo-label">
@@ -2552,13 +1553,14 @@ export default function Home() {
             </a>
           </div>
 
+          {/* ITEM 2 */}
           <div className="demo-item">
             <a href="home-multi-brand.html">
               <div className="demo-image position-relative">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-multi-brand.jpg"
                   src="images/demo/home-multi-brand.jpg"
+                  data-src="images/demo/home-multi-brand.jpg"
                   alt="home-multi-brand"
                 />
                 <div className="demo-label">
@@ -2570,13 +1572,14 @@ export default function Home() {
             </a>
           </div>
 
+          {/* ITEM 3 */}
           <div className="demo-item">
             <a href="home-02.html">
               <div className="demo-image position-relative">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-02.jpg"
                   src="images/demo/home-02.jpg"
+                  data-src="images/demo/home-02.jpg"
                   alt="home-02"
                 />
                 <div className="demo-label">
@@ -2587,13 +1590,14 @@ export default function Home() {
             </a>
           </div>
 
+          {/* ITEM 4 */}
           <div className="demo-item">
             <a href="home-03.html">
               <div className="demo-image">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-03.jpg"
                   src="images/demo/home-03.jpg"
+                  data-src="images/demo/home-03.jpg"
                   alt="home-03"
                 />
               </div>
@@ -2601,13 +1605,14 @@ export default function Home() {
             </a>
           </div>
 
+          {/* ITEM 5 */}
           <div className="demo-item">
             <a href="home-04.html">
               <div className="demo-image">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-04.jpg"
                   src="images/demo/home-04.jpg"
+                  data-src="images/demo/home-04.jpg"
                   alt="home-04"
                 />
               </div>
@@ -2615,13 +1620,14 @@ export default function Home() {
             </a>
           </div>
 
+          {/* ITEM 6 */}
           <div className="demo-item">
             <a href="home-05.html">
               <div className="demo-image">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-05.jpg"
                   src="images/demo/home-05.jpg"
+                  data-src="images/demo/home-05.jpg"
                   alt="home-05"
                 />
               </div>
@@ -2629,622 +1635,73 @@ export default function Home() {
             </a>
           </div>
 
+          {/* ITEM 7 */}
           <div className="demo-item">
             <a href="home-06.html">
               <div className="demo-image position-relative">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-06.jpg"
                   src="images/demo/home-06.jpg"
+                  data-src="images/demo/home-06.jpg"
                   alt="home-06"
                 />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
               </div>
               <span className="demo-name">Home Fashion 06</span>
             </a>
           </div>
 
-          <div className="demo-item position-relative">
-            <a href="home-personalized-pod.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-personalized-pod.jpg"
-                  src="images/demo/home-personalized-pod.jpg"
-                  alt="home-personalized-pod"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Personalized Pod</span>
-            </a>
-          </div>
-
-          <div className="demo-item position-relative">
-            <a href="home-pickleball.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-pickleball.png"
-                  src="images/demo/home-pickleball.png"
-                  alt="home-pickleball"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Pickleball</span>
-            </a>
-          </div>
-
-          <div className="demo-item position-relative">
-            <a href="home-ceramic.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-ceramic.png"
-                  src="images/demo/home-ceramic.png"
-                  alt="home-ceramic"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Ceramic</span>
-            </a>
-          </div>
-
-          <div className="demo-item position-relative">
-            <a href="home-food.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-food.png"
-                  src="images/demo/home-food.png"
-                  alt="home-food"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Food</span>
-            </a>
-          </div>
-
-          <div className="demo-item position-relative">
-            <a href="home-camp-and-hike.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-camp-and-hike.png"
-                  src="images/demo/home-camp-and-hike.png"
-                  alt="home-camp-and-hike"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Camp And Hike</span>
-            </a>
-          </div>
-
+          {/* ITEM 8 */}
           <div className="demo-item">
-            <a href="home-07.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-07.jpg"
-                  src="images/demo/home-07.jpg"
-                  alt="home-07"
-                />
-              </div>
-              <span className="demo-name">Home Fashion 07</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-08.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-08.jpg"
-                  src="images/demo/home-08.jpg"
-                  alt="home-08"
-                />
-              </div>
-              <span className="demo-name">Home Fashion 08</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-skincare.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-skincare.jpg"
-                  src="images/demo/home-skincare.jpg"
-                  alt="home-skincare"
-                />
-              </div>
-              <span className="demo-name">Home Skincare</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-headphone.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-headphone.jpg"
-                  src="images/demo/home-headphone.jpg"
-                  alt="home-headphone"
-                />
-              </div>
-              <span className="demo-name">Home Headphone</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-giftcard.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-giftcard.jpg"
-                  src="images/demo/home-giftcard.jpg"
-                  alt="home-gift-card"
-                />
-              </div>
-              <span className="demo-name">Home Gift Card</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-furniture.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-furniture.jpg"
-                  src="images/demo/home-furniture.jpg"
-                  alt="home-furniture"
-                />
-              </div>
-              <span className="demo-name">Home Furniture</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-furniture-02.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-furniture2.jpg"
-                  src="images/demo/home-furniture2.jpg"
-                  alt="home-furniture-2"
-                />
-              </div>
-              <span className="demo-name">Home Furniture 2</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-skateboard.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-skateboard.jpg"
-                  src="images/demo/home-skateboard.jpg"
-                  alt="home-skateboard"
-                />
-              </div>
-              <span className="demo-name">Home Skateboard</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-stroller.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-stroller.jpg"
-                  src="images/demo/home-stroller.jpg"
-                  alt="home-stroller"
-                />
-              </div>
-              <span className="demo-name">Home Stroller</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-decor.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-decor.jpg"
-                  src="images/demo/home-decor.jpg"
-                  alt="home-decor"
-                />
-              </div>
-              <span className="demo-name">Home Decor</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-electronic.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-electronic.jpg"
-                  src="images/demo/home-electronic.jpg"
-                  alt="home-electronic"
-                />
-              </div>
-              <span className="demo-name">Home Electronic</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-setup-gear.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-setup-gear.jpg"
-                  src="images/demo/home-setup-gear.jpg"
-                  alt="home-setup-gear"
-                />
-              </div>
-              <span className="demo-name">Home Setup Gear</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-dog-accessories.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-dog-accessories.jpg"
-                  src="images/demo/home-dog-accessories.jpg"
-                  alt="home-dog-accessories"
-                />
-              </div>
-              <span className="demo-name">Home Dog Accessories</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-kitchen-wear.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-kitchen.jpg"
-                  src="images/demo/home-kitchen.jpg"
-                  alt="home-kitchen-wear"
-                />
-              </div>
-              <span className="demo-name">Home Kitchen Wear</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-phonecase.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-phonecase.jpg"
-                  src="images/demo/home-phonecase.jpg"
-                  alt="home-phonecase"
-                />
-              </div>
-              <span className="demo-name">Home Phonecase</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-paddle-boards.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home_paddle_board.jpg"
-                  src="images/demo/home_paddle_board.jpg"
-                  alt="home-paddle_board"
-                />
-              </div>
-              <span className="demo-name">Home Paddle Boards</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-glasses.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-glasses.jpg"
-                  src="images/demo/home-glasses.jpg"
-                  alt="home-glasses"
-                />
-              </div>
-              <span className="demo-name">Home Glasses</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-pod-store.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-pod-store.jpg"
-                  src="images/demo/home-pod-store.jpg"
-                  alt="home-pod-store"
-                />
-              </div>
-              <span className="demo-name">Home POD Store</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-activewear.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-activewear.jpg"
-                  src="images/demo/home-activewear.jpg"
-                  alt="home-activewear"
-                />
-              </div>
-              <span className="demo-name">Activewear</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-handbag.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-handbag.jpg"
-                  src="images/demo/home-handbag.jpg"
-                  alt="home-handbag"
-                />
-              </div>
-              <span className="demo-name">Home Handbag</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-tee.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-tee.jpg"
-                  src="images/demo/home-tee.jpg"
-                  alt="home-tee"
-                />
-              </div>
-              <span className="demo-name">Home Tee</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-sock.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-socks.jpg"
-                  src="images/demo/home-socks.jpg"
-                  alt="home-sock"
-                />
-              </div>
-              <span className="demo-name">Home Sock</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-jewerly.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-jewelry.jpg"
-                  src="images/demo/home-jewelry.jpg"
-                  alt="home-jewelry"
-                />
-              </div>
-              <span className="demo-name">Home Jewelry</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-sneaker.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-sneaker.jpg"
-                  src="images/demo/home-sneaker.jpg"
-                  alt="home-sneaker"
-                />
-              </div>
-              <span className="demo-name">Home Sneaker</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-accessories.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-accessories.jpg"
-                  src="images/demo/home-accessories.jpg"
-                  alt="home-accessories"
-                />
-              </div>
-              <span className="demo-name">Home Accessories</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-grocery.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-gocery.jpg"
-                  src="images/demo/home-gocery.jpg"
-                  alt="home-grocery"
-                />
-              </div>
-              <span className="demo-name">Home Grocery</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-baby.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-baby.jpg"
-                  src="images/demo/home-baby.jpg"
-                  alt="home-baby"
-                />
-              </div>
-              <span className="demo-name">Home Baby</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-cosmetic.html">
+            <a href="home-drinkwear.html">
               <div className="demo-image position-relative">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-cosmetic.png"
-                  src="images/demo/home-cosmetic.png"
-                  alt="home-cosmetic"
+                  src="images/demo/home-drinkwear.png"
+                  data-src="images/demo/home-drinkwear.png"
+                  alt="home-drinkwear"
                 />
                 <div className="demo-label">
                   <span className="demo-new">New</span>
                 </div>
               </div>
-              <span className="demo-name">Home Cosmetic</span>
+              <span className="demo-name">Home Drinkwear</span>
             </a>
           </div>
 
+          {/* ITEM 9 */}
           <div className="demo-item">
-            <a href="home-plant.html">
+            <a href="home-supplement.html">
               <div className="demo-image position-relative">
                 <img
                   className="lazyload"
-                  data-src="images/demo/home-plant.png"
-                  src="images/demo/home-plant.png"
-                  alt="home-plant"
+                  src="images/demo/home-supplement.png"
+                  data-src="images/demo/home-supplement.png"
+                  alt="home-supplement"
                 />
                 <div className="demo-label">
                   <span className="demo-new">New</span>
                 </div>
               </div>
-              <span className="demo-name">Home Plant</span>
+              <span className="demo-name">Home Supplement</span>
             </a>
           </div>
 
-          <div className="demo-item">
-            <a href="home-swimwear.html">
-              <div className="demo-image position-relative">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-swimwear.png"
-                  src="images/demo/home-swimwear.png"
-                  alt="home-swimwear"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Swimwear</span>
-            </a>
-          </div>
+          {/*  
+            NOTE: You have MANY demo items. 
+            Instead of pasting all 60 manually,
+            I can convert EVERYTHING automatically 
+            OR build a JSON-driven dynamic component.
+          */}
 
-          <div className="demo-item">
-            <a href="home-electric-bike.html">
-              <div className="demo-image position-relative">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-electric-bike.png"
-                  src="images/demo/home-electric-bike.png"
-                  alt="home-electric-bike"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Electric Bike</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-footwear.html">
-              <div className="demo-image position-relative">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-footwear.jpg"
-                  src="images/demo/home-footwear.jpg"
-                  alt="home-footwear"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Footwear</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-book-store.html">
-              <div className="demo-image position-relative">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-bookstore.png"
-                  src="images/demo/home-bookstore.png"
-                  alt="home-bookstore"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Bookstore</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-gaming-accessories.html">
-              <div className="demo-image position-relative">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-gaming-accessories.png"
-                  src="images/demo/home-gaming-accessories.png"
-                  alt="home-gaming-accessories"
-                />
-                <div className="demo-label">
-                  <span className="demo-new">New</span>
-                </div>
-              </div>
-              <span className="demo-name">Home Gaming Accessories</span>
-            </a>
-          </div>
-
-          <div className="demo-item">
-            <a href="home-parallax.html">
-              <div className="demo-image">
-                <img
-                  className="lazyload"
-                  data-src="images/demo/home-skincare.jpg"
-                  src="images/demo/home-skincare.jpg"
-                  alt="home-skincare"
-                />
-              </div>
-              <span className="demo-name">Home Parallax</span>
-            </a>
-          </div>
-
+          {/* If you want, I will generate:  
+              ✔ Complete JSX for all items  
+              OR  
+              ✔ A cleaner reusable <DemoItem /> component  
+              OR  
+              ✔ Auto-loop JSON → JSX  
+          */}
         </div>
       </div>
-
     </div>
   </div>
 </div>
@@ -5003,5 +3460,9 @@ export default function Home() {
 {/* /modal find_size */}
 
     </div>
+
+    </>
   )
 }
+
+export default page

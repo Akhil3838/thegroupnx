@@ -1,6 +1,6 @@
-import Link from "next/link";
+import React from 'react'
 
-export default function Home() {
+function page() {
   return (
     <div className="preload-wrapper">
           {/* <!-- RTL --> */}
@@ -5005,3 +5005,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default page

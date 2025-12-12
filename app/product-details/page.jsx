@@ -1,6 +1,8 @@
-import React from 'react'
+'use client'
+import React, { useEffect } from 'react'
 
 function page() {
+
   return (
     <>
     <div className='preload-wrapper'>
