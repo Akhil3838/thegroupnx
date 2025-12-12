@@ -14,7 +14,7 @@ export default function Home() {
  */}
     <div id="wrapper">
 
-      {/* announcement-bar */}
+{/* announcement-bar */}
 <div className="announcement-bar bg_dark">
   <div className="wrap-announcement-bar">
     <div className="box-sw-announcement-bar speed-1">
@@ -28,6 +28,7 @@ export default function Home() {
       <div className="announcement-bar-item">
         <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
       </div>
+
       <div className="announcement-bar-item">
         <p>FREE SHIPPING AND RETURNS</p>
       </div>
@@ -37,6 +38,7 @@ export default function Home() {
       <div className="announcement-bar-item">
         <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
       </div>
+
       <div className="announcement-bar-item">
         <p>FREE SHIPPING AND RETURNS</p>
       </div>
@@ -46,6 +48,7 @@ export default function Home() {
       <div className="announcement-bar-item">
         <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
       </div>
+
       <div className="announcement-bar-item">
         <p>FREE SHIPPING AND RETURNS</p>
       </div>
@@ -55,6 +58,7 @@ export default function Home() {
       <div className="announcement-bar-item">
         <p>LIMITED TIME OFFER: FASHION SALE YOU CAN'T RESIST</p>
       </div>
+
       <div className="announcement-bar-item">
         <p>FREE SHIPPING AND RETURNS</p>
       </div>
