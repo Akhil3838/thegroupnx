@@ -1221,9 +1221,9 @@ export default function Home() {
   <div className="container">
 
     <div className="flat-title wow fadeInUp" data-wow-delay="0s">
-      <span className="title">Ecomus’s Favorites</span>
+      <span className="title">Ecomuss Favorites</span>
       <p className="sub-title">
-        Beautifully Functional. Purposefully Designed. Consciously Crafted.
+        Beautifully Functional Purposefully Designed Consciously Crafted.
       </p>
     </div>
 
@@ -1811,8 +1811,8 @@ export default function Home() {
                 </div>
 
                 <p className="text">
-                  "The shipping is always fast and the customer service team is friendly and helpful.
-                  I highly recommend this site to anyone looking for affordable clothing."
+                  The shipping is always fast and the customer service team is friendly and helpful
+                  I highly recommend this site to anyone looking for affordable clothing
                 </p>
 
                 <div className="author box-author">
@@ -1860,8 +1860,8 @@ export default function Home() {
                 </div>
 
                 <p className="text">
-                  "The shipping is always fast and the customer service team is friendly and helpful.
-                  I highly recommend this site to anyone looking for affordable clothing."
+                  The shipping is always fast and the customer service team is friendly and helpful.
+                  I highly recommend this site to anyone looking for affordable clothing.
                 </p>
 
                 <div className="author box-author">
